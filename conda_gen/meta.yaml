@@ -17,7 +17,7 @@ requirements:
     - cytnx
     - pytorch >=1.6
     - torchvision
-    - cpuonly
+    - cpuonly  # [linux]
     - setuptools
     - cmake  
     - pybind11 
@@ -26,7 +26,7 @@ requirements:
     - python 
     - cytnx
     - pytorch >=1.6
-    - cpuonly
+    - cpuonly # [linux]
     - torchvision
     - setuptools
     - cmake  
@@ -37,7 +37,7 @@ requirements:
     - python
     - cytnx
     - pytorch >=1.6
-    - cpuonly
+    - cpuonly # [linux]
     - torchvision
     - setuptools
     - cmake  
