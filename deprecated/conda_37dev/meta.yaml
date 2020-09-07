@@ -1,0 +1,54 @@
+package:
+  name: cytnx_37dev
+  version: "0.5.3dev"
+
+source:
+  git_url: https://github.com/kaihsin/Cytnx.git
+
+build:
+  number: 1
+
+
+requirements:
+  build:
+    - python 3.7
+    - cmake  
+    - numpy >=1.18
+    - pybind11 
+    - boost
+    - mkl >=2019
+    - mkl-include
+    - intel-openmp
+    - setuptools
+    - graphviz
+    - python-graphviz
+    - blas * mkl
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+
+  host:
+    - python 3.7
+    - boost
+    - numpy >=1.18
+    - mkl >=2019
+    - mkl-include
+    - intel-openmp
+    - setuptools
+    - graphviz
+    - blas * mkl
+    - python-graphviz
+
+  run:
+    - python 3.7
+    - boost
+    - numpy >=1.18
+    - mkl >=2019
+    - mkl-include
+    - intel-openmp
+    - setuptools
+    - python-graphviz
+    - blas * mkl
+    - graphviz
+
+about:
+

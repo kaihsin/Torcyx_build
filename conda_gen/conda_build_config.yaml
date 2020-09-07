@@ -1,0 +1,4 @@
+python:
+    - 3.8
+pin_run_as_build:
+    python: x.x
